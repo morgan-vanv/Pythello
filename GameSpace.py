@@ -5,6 +5,15 @@
 #
 
 class GameSpace(object):
-    def __init__(self, piece_info):
+    def __init__(self):
+        self.piece_type = 'N'
+
+    def set_white(self):
+        pass
+
+    def set_black(self):
+        pass
+
+    def flip_piece(self):
         pass
     pass
