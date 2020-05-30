@@ -4,7 +4,7 @@
 #   @brief: 
 #
 
-class Pythello(object):
+class GameSpace(object):
     def __init__(self, piece_info):
         pass
     pass
