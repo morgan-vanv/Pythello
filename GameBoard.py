@@ -4,7 +4,7 @@
 #   @brief: 
 #
 
-class GameSpace(object):
+class GameBoard(object):
     def __init__(self, piece_info):
         pass
     pass
