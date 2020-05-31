@@ -4,3 +4,8 @@
 #   @brief: 
 #
 
+import GameSpace
+import GameBoard
+
+board = GameBoard.GameBoard()
+board.print_board()

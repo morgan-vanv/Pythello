@@ -5,8 +5,8 @@
 #
 
 class GameSpace(object):
-    def __init__(self):
-        self.piece_type = 'N'
+    def __init__(self, p_type):
+        self.piece_type = p_type
 
     def is_white(self):
         pass
@@ -28,4 +28,7 @@ class GameSpace(object):
 
     def flip_piece(self):
         pass
+
+    def print_piece(self):
+        print(self.piece_type)
     pass
